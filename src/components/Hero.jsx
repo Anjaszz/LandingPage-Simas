@@ -92,11 +92,11 @@ const SeminarInfo = () => {
                     </ul>
                     <p class="mb-8 font-light lg:text-xl">Semua fitur ini dirancang untuk memberikan pengalaman seminar yang lebih mudah, cepat, dan profesional. Pilih SIMAS sebagai partner terbaik Anda</p>
                 </div>
-                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={featureImg} alt="dashboard feature image"/>
+                <img class="w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={featureImg} alt="dashboard feature image"/>
             </div>
           
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={featureImg2} alt="feature image 2"/>
+                
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Keunggulan yang Kami Tawarkan</h2>
                     <p class="mb-8 font-light lg:text-xl">Kami menghadirkan solusi inovatif yang dirancang untuk memberikan pengalaman seminar terbaik.</p>
@@ -131,6 +131,7 @@ const SeminarInfo = () => {
                     <p class="font-light lg:text-xl">Gabungkan teknologi modern dan kemudahan manajemen dengan SIMAS. Pastikan setiap seminar yang Anda kelola berjalan lancar tanpa hambatan.</p>
                 </div>
             </div>
+            <img class="w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={featureImg2} alt="feature image 2"/>
         </div>
       </section>
     
